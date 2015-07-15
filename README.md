@@ -147,16 +147,6 @@ with escaping html <a href="http://wonko.com/post/html-escaping">here</a>.</p>
 <li><input class="readme-checkbox" name="task-11" type="checkbox">Allow users to 'befriend' other users by clicking on their username</li>
 <li><input class="readme-checkbox" name="task-12" type="checkbox">Display all messages sent by friends in bold</li>
 </ul>
-<h3 class="ng-scope" id="backbone-introduction">Backbone Introduction</h3>
-<p class="ng-scope">Backbone.js is a JavaScript MVC (model-view-controller) framework for front-end development which works well
-with jQuery and Underscore.js. Backbone.js is great for building client-heavy, so-called one-page
-apps like Gmail, Google Docs, and Asana.</p>
-<ul class="ng-scope">
-<li>Complete the Hack Reactor Backbone intro (you have access to this repo on github)<ul>
-<li><input class="readme-checkbox" name="task-13" type="checkbox">spine</li>
-</ul>
-</li>
-</ul>
 <h2 class="ng-scope" id="example-">Example:</h2>
 <p class="ng-scope"><img src="https://cloud.githubusercontent.com/assets/15180/5589913/efaba092-90dd-11e4-95bb-365c53dc4b91.gif" alt="Project Demo Image"></p>
 <h2 class="ng-scope" id="extra-credit">Extra Credit</h2>
