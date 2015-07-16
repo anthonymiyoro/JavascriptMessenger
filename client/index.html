@@ -6,15 +6,32 @@
     <link rel="stylesheet" href="styles/styles.css">
 
     <!-- dependencies -->
-    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="/home/tony/Documents/2015-07-chatterbox-client/client/bower_components/jquery/jquery.min.js"></script>
+      <script src="/home/tony/Documents/2015-07-chatterbox-client/client/bower_components/underscore/underscore-min.js"></script>
     <!-- your scripts -->
-    <script src="env/config.js"></script>
-    <script src="scripts/app.js"></script>
+    <script src="/home/tony/Documents/2015-07-chatterbox-client/client/env/config.js"></script>
+    <script src="/home/tony/Documents/2015-07-chatterbox-client/client/scripts/app.js"></script>
   </head>
   <body>
     <div id="main">
       <h1>chatterbox</h1>
       <!-- Your HTML goes here! -->
+        <div>
+        <textarea id="textbox" rows="4" cols="50">
+        </textarea>
+        <input type="submit" class="loginButtons" value="Submit" onclick="submit();"/>
+        </div>
+        <script>
+//  created an Object called message below
+          var message = {}
+//    gave the Object the text in the text box
+          var message = document.getElementById('textbox');
+//     allows the message to be displayed in a popup
+        function submit(){
+        alert(message.value);
+         }
+            
+        </script>
     </div>
   </body>
 </html>
