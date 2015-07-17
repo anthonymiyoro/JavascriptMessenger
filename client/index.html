@@ -19,18 +19,33 @@
         <div>
         <textarea id="textbox" rows="4" cols="50">
         </textarea>
-        <input type="submit" class="loginButtons" value="Submit" onclick="submit();"/>
+            <button id="button1" type="submit" value="Submit" >Click Me!</button>
+             <button id="button2" type="submit" value="Submit" >recieve</button>
+      
+            
+        <div class="recievemessage">
+            <ul>
+                <li>
+                
+                </li>
+            </ul>
+         </div>
         </div>
         <script>
 //  created an Object called message below
           var message = {}
-//    gave the Object the text in the text box
+//  gave the Object the text in the text box
           var message = document.getElementById('textbox');
-//     allows the message to be displayed in a popup
+// assigns the send button to functions
+            var button1 = document.getElementById('button1');
+             button1.addEventListener("click",send);
+            button1.addEventListener("click",submit);
+// function that displays the message in a popup box that is then called above
         function submit(){
         alert(message.value);
          }
-            
+
+            recievemessage.innerHTML =   recievemessage.innerHTML + "<li>" + inputtext + "</li>"
         </script>
     </div>
   </body>
