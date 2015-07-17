@@ -24,11 +24,10 @@
       
             
         <div class="recievemessage">
-            <ul>
+            <ol id="recieved">
                 <li>
-                
                 </li>
-            </ul>
+            </ol>
          </div>
         </div>
         <script>
@@ -44,8 +43,10 @@
         function submit(){
         alert(message.value);
          }
+//     button recieves message from server
+ var button2 = document.getElementById("button2");
+ button2.addEventListener("click", get);
 
-            recievemessage.innerHTML =   recievemessage.innerHTML + "<li>" + inputtext + "</li>"
         </script>
     </div>
   </body>
