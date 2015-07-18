@@ -31,7 +31,6 @@ function get(){
   contentType: 'application/json',
   success: function (data) {
    $.each(data.results, function(i,message){
-      
       $("#recieved").append("<li>" +message.username +"<br>"+ message.text + "</li>");
    });
   }
